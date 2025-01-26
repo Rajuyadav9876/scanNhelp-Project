@@ -1,0 +1,73 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3ddd2;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      max-width: 1200px;
+      margin-bottom: 12px;
+    }
+    .app-title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .icon {
+      font-size: 24px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .card {
+      background-color: #c3a36a;
+      color: white;
+      width: 280px; /* Reduced the card width */
+      border-radius: 8px;
+      padding: 22px; /* Reduced padding */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 300px;
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px; /* Reduced margin */
+    }
+    .card-title {
+      font-size: 18px; /* Reduced font size */
+      font-weight: bold;
+    }
+    .card-description {
+      margin: 10px 0; /* Reduced margin */
+      font-size: 13px; /* Reduced font size */
+      line-height: 1.4;
+    }
+    .view-product {
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding: 6px 12px; /* Reduced padding */
+      cursor: pointer;
+      font-size: 12px; /* Reduced font size */
+      text-align: center;
+      text-decoration: none;
+    }
+    .card :hover{
+        transform: translateY(-5px);
+    }
+    .view-product:hover {
+      background-color: #333;
+    }
+    .delete-icon {
+      font-size: 18px; /* Reduced icon size */
+      cursor: pointer;
+    }
